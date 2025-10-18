@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS :: CYBER-DUEL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="glitch" data-text="CYBER-DUEL">CYBER-DUEL</h1>
+        
+        <div class="score-board neon-box">
+            <div id="user-score-label" class="badge user">YOU</div>
+            <div id="computer-score-label" class="badge comp">A.I.</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+        
+        <div class="battle-display">
+            <div id="player-hand" class="hand-display">?</div>
+            <div id="computer-hand" class="hand-display">?</div>
+        </div>
+
+        <div id="message" class="message-display">INITIATE SEQUENCE: MAKE YOUR CHOICE.</div>
+
+        <div class="choices">
+            <button id="rock" class="choice-button pulse" data-choice="rock">R O C K</button>
+            <button id="paper" class="choice-button pulse" data-choice="paper">P A P E R</button>
+            <button id="scissors" class="choice-button pulse" data-choice="scissors">S C I S S O R S</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
